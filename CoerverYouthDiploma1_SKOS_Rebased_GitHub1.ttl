@@ -1,0 +1,823 @@
+@prefix cd: <https://glenocean.github.io/CoerverSKOSViewer/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dcterms:source a owl:AnnotationProperty .
+
+skos:altLabel a owl:AnnotationProperty .
+
+skos:broader a owl:AnnotationProperty .
+
+skos:definition a owl:AnnotationProperty .
+
+skos:inScheme a owl:AnnotationProperty .
+
+skos:narrower a owl:AnnotationProperty .
+
+skos:notation a owl:AnnotationProperty .
+
+skos:prefLabel a owl:AnnotationProperty .
+
+skos:related a owl:AnnotationProperty .
+
+skos:topConceptOf a owl:AnnotationProperty .
+
+cd:BM1 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:BallMastery ;
+    skos:definition """PURPOSE
+To improve Ball Control, Touch, Flexibility, Awareness.
+SET UP
+Players with a ball each in formation 4 yards apart.
+ACTION
+On the Coach’s signal, players…
+1. Do as many toe taps as they can in 30 or 40 seconds.
+MAKE HARDER
+2. Turn 90 degrees pulling with the sole and taking with the inside of the same foot.
+3. Move forwards and backwards together.
+4. Step over turn 90 degrees.
+5. Tap behind the standing leg and turn 90 degrees.
+COACH TIP TO PLAYER.
+Keep eyes up as much as possible and learn to be aware of teammates around you"""@en,
+        "Toe taps and progressive turns; control, touch, flexibility, awareness."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "BM1" ;
+    skos:prefLabel "BM1 — Toe taps & control variations"@en .
+
+cd:BM2 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:BallMastery ;
+    skos:definition "Zig‑zag cones; execute a move before each cone; quick, low‑touch execution."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "BM2" ;
+    skos:prefLabel "BM2 — Zig‑zag Ball Mastery / Game Moves"@en .
+
+cd:BM3 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:BallMastery ;
+    skos:definition "Staggered starts across grid performing nominated moves; eyes‑up emphasis."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "BM3" ;
+    skos:prefLabel "BM3 — Waves of Ball Mastery across grid"@en .
+
+cd:BM4 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:BallMastery ;
+    skos:definition "Vary receiving surfaces; smooth first touch into return pass."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "BM4" ;
+    skos:prefLabel "BM4 — Receiving & Control (feet, knees, head)"@en .
+
+cd:BM5 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:BallMastery ;
+    skos:definition "Traverse grid performing ball mastery; reaction/stop cues to promote scanning."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "BM5" ;
+    skos:prefLabel "BM5 — Ball Mastery on the move (eyes‑up)"@en .
+
+cd:BM6 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:BallMastery ;
+    skos:definition "Repetitive 1v1 moves; limited‑pressure pass‑and‑follow progression."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "BM6" ;
+    skos:prefLabel "BM6 — Game Moves as Ball Mastery"@en .
+
+cd:Chop a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:BallMastery ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Chop"@en .
+
+cd:ConditionedGames a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallSidedGames ;
+    skos:definition "Coach-imposed rules/conditions to elicit skills/tactics."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Conditioned Games"@en .
+
+cd:Cushion a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:FirstTouch ;
+    skos:definition "Withdraw receiving surface to decelerate the ball and control it."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Cushion (Receive)"@en .
+
+cd:Cut a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:BallMastery ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Cut"@en .
+
+cd:Drag a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:BallMastery ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Drag"@en .
+
+cd:DribbleCut a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:BallMastery ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Dribble Cut"@en .
+
+cd:FreeGames a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallSidedGames ;
+    skos:definition "Minimal coach intervention apart from safety."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Free Games"@en .
+
+cd:GroundJuggling a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:BallMastery ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Ground Juggling"@en .
+
+cd:HA1 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:HomeAssignment ;
+    skos:inScheme cd:scheme ;
+    skos:notation "HA1" ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "HA1 — Home Assignment (placeholder)"@en .
+
+cd:HA2 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:HomeAssignment ;
+    skos:inScheme cd:scheme ;
+    skos:notation "HA2" ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "HA2 — Home Assignment (placeholder)"@en .
+
+cd:HA3 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:HomeAssignment ;
+    skos:inScheme cd:scheme ;
+    skos:notation "HA3" ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "HA3 — Home Assignment (placeholder)"@en .
+
+cd:HA4 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:HomeAssignment ;
+    skos:inScheme cd:scheme ;
+    skos:notation "HA4" ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "HA4 — Home Assignment (placeholder)"@en .
+
+cd:HA5 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:HomeAssignment ;
+    skos:inScheme cd:scheme ;
+    skos:notation "HA5" ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "HA5 — Home Assignment (placeholder)"@en .
+
+cd:HA6 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:HomeAssignment ;
+    skos:inScheme cd:scheme ;
+    skos:notation "HA6" ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "HA6 — Home Assignment (placeholder)"@en .
+
+cd:LimitedTouches a owl:NamedIndividual,
+        skos:Concept ;
+    skos:altLabel "Two‑Touch Play"@en ;
+    skos:broader cd:SmallSidedGames ;
+    skos:definition "Touch constraints to improve speed of play and accuracy."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Limited Touches"@en .
+
+cd:M2 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:OneVOne ;
+    skos:definition "Defender lead‑passes attacker and overlaps to goal side; attacker reaches mid‑line before finish."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "M2" ;
+    skos:prefLabel "M2 — 1v1 to two small goals (lead pass & overlap)"@en .
+
+cd:M3 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:OneVOne ;
+    skos:definition "Serve from defender; score only in shooting zone; 2v2 overlap progression."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "M3" ;
+    skos:prefLabel "M3 — 1v1 (zones) with 2v2 progression"@en .
+
+cd:M4 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:OneVOne ;
+    skos:definition "Server plays through cones; A & D sprint around goals; attacker tries to enter shooting zone before tackle."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "M4" ;
+    skos:prefLabel "M4 — Sprint around goals into 1v1 race to shoot"@en .
+
+cd:MatthewsMove a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:Feints ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Matthews Move"@en .
+
+cd:MultipleGoals a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallSidedGames ;
+    skos:definition "Using multiple mini‑goals to increase options and creativity."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Multiple Goals"@en .
+
+cd:NeutralPlayers a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallSidedGames ;
+    skos:definition "Additional players who join the team in possession."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Neutral Players"@en .
+
+cd:PullPush a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:BallMastery ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Pull Push"@en .
+
+cd:S1 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:Speed ;
+    skos:definition "Square release‑pass & chase; variants add dribble and stop‑start moves."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "S1" ;
+    skos:prefLabel "S1 — Corner release & chase (with/without ball)"@en .
+
+cd:S2 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:Speed ;
+    skos:definition "Corners dribble laps then strike central target; stop‑start move variant."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "S2" ;
+    skos:prefLabel "S2 — Run with the ball to central target"@en .
+
+cd:S3 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:Speed ;
+    skos:definition "Quick pass to end player and switch places; variant finishes after N passes."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "S3" ;
+    skos:prefLabel "S3 — 4‑player passing rotation (switch & shoot variant)"@en .
+
+cd:S4 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:Speed ;
+    skos:definition "Sprint to line, perform two changes of direction, push and finish; first to net wins."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "S4" ;
+    skos:prefLabel "S4 — C.O.D. race + shot"@en .
+
+cd:S5 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:Speed ;
+    skos:definition "Alternating attacker/defender; must enter shooting zone; extend approach distance to force 1v1."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "S5" ;
+    skos:prefLabel "S5 — Speed with ball & finish in shooting zone"@en .
+
+cd:SGP2 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallGroupPlay ;
+    skos:definition "Tag sprint no‑ball, then timed keep‑ball with rotating press between grids."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "SGP2" ;
+    skos:prefLabel "SGP2 — Twin grids: keep‑ball vs. chasers (pressing)"@en .
+
+cd:SGP6 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallGroupPlay ;
+    skos:definition "Attack into 3 mini‑goals; on shot/out, attackers become defenders; staged recovery pressure."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "SGP6" ;
+    skos:prefLabel "SGP6 — Fast Break Attack 2v2 rotation (3 goals)"@en .
+
+cd:SSG1 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallSidedGames ;
+    skos:inScheme cd:scheme ;
+    skos:notation "SSG1" ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "SSG1 — Small Sided Game (placeholder)"@en .
+
+cd:SSG3 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallSidedGames ;
+    skos:inScheme cd:scheme ;
+    skos:notation "SSG3" ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "SSG3 — Small Sided Game (placeholder)"@en .
+
+cd:SSG5 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallSidedGames ;
+    skos:inScheme cd:scheme ;
+    skos:notation "SSG5" ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "SSG5 — Small Sided Game (placeholder)"@en .
+
+cd:SSG8 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallSidedGames ;
+    skos:inScheme cd:scheme ;
+    skos:notation "SSG8" ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "SSG8 — Small Sided Game (placeholder)"@en .
+
+cd:SSG9 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallSidedGames ;
+    skos:inScheme cd:scheme ;
+    skos:notation "SSG9" ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "SSG9 — Small Sided Game (placeholder)"@en .
+
+cd:Slap a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:BallMastery ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Slap"@en .
+
+cd:Slide a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:BallMastery ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Slide"@en .
+
+cd:SpeedWithoutBall a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:Speed ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Speed without the Ball"@en .
+
+cd:TakeOut a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:BallMastery ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Take Out"@en .
+
+cd:TechnicalConditioning a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SessionPlanner ;
+    skos:definition "Coerver skills drill used for fitness training."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Technical Conditioning"@en .
+
+cd:ThemeSession a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SessionPlanner ;
+    skos:definition "Session focused on a topic (e.g., Fast Break Attack)."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Theme Session"@en .
+
+cd:ToeTaps a owl:NamedIndividual,
+        skos:Concept ;
+    skos:altLabel "Shuffle"@en,
+        "Toe Taps"@en ;
+    skos:broader cd:BallMastery ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Toe Taps / Shuffle"@en .
+
+cd:TouchDirection a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:FirstTouch ;
+    skos:definition "Intended direction of the first touch."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Touch Direction"@en .
+
+cd:TouchFinishing a owl:NamedIndividual,
+        skos:Concept ;
+    skos:altLabel "One‑Touch Finishing"@en,
+        "Touch Finishing"@en ;
+    skos:broader cd:SmallSidedGames ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "First‑Touch Finishing"@en .
+
+cd:TouchSpeed a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:FirstTouch ;
+    skos:definition "Distance/pace imparted by the first touch."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Touch Speed"@en .
+
+cd:recPercent a owl:AnnotationProperty .
+
+cd:sequence a owl:AnnotationProperty .
+
+skos:ConceptScheme a owl:Class .
+
+cd:CoerverSession a owl:NamedIndividual,
+        skos:Concept ;
+    skos:definition "A session following the Coerver Session Planner formula."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Coerver Session"@en ;
+    skos:related cd:SessionPlanner .
+
+cd:FastBreakAttack a owl:NamedIndividual,
+        skos:Concept ;
+    skos:altLabel "Counter Attack"@en ;
+    skos:broader cd:SmallGroupPlay ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Fast Break Attack"@en ;
+    skos:related cd:KillerPass .
+
+cd:M5 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:OneVOne ;
+    skos:definition "Score only after dribbling through gate; 2v2: through‑gate pass + one‑touch finish."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "M5" ;
+    skos:prefLabel "M5 — 1v1 gates in front of goals (2v2 variant)"@en ;
+    skos:related cd:ShootingZones .
+
+cd:M7 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:OneVOne ;
+    skos:definition "Opposed lines dribble to marker cone, perform designated feint, exit to right; add mini‑goal finish."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "M7" ;
+    skos:prefLabel "M7 — Feints at marker (finish variant)"@en ;
+    skos:related cd:Feints .
+
+cd:MirrorMoves a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:GameMoves ;
+    skos:definition "Two-part move enabling attacker to go either side of opponent."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Mirror Moves"@en .
+
+cd:OneVOneAttacking a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:OneVOne ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "1 v 1 Attacking"@en ;
+    skos:related cd:GameMoves .
+
+cd:Patience a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:Coerver5Ps ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Patience"@en .
+
+cd:Persistence a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:Coerver5Ps ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Persistence"@en .
+
+cd:Position a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:Coerver5Ps ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Position"@en .
+
+cd:Pounce a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:Coerver5Ps ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Pounce"@en .
+
+cd:Pressing a owl:NamedIndividual,
+        skos:Concept ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Pressing"@en ;
+    skos:related cd:SmallGroupPressing .
+
+cd:Pressure a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:Coerver5Ps ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Pressure"@en .
+
+cd:SGP1 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallGroupPlay ;
+    skos:definition "Middle players trigger repeated wall passes with perimeter; variants add touch and dummy‑through."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "SGP1" ;
+    skos:prefLabel "SGP1 — Central 1–2s with perimeter (timed)"@en ;
+    skos:related cd:WallPasses .
+
+cd:SGP3 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallGroupPlay ;
+    skos:definition "Receive with outside into box; set and pass across; follow to apply passive pressure; swap foot/lane."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "SGP3" ;
+    skos:prefLabel "SGP3 — Two‑lane first‑touch & pass accuracy"@en ;
+    skos:related cd:FirstTouch .
+
+cd:SGP5 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallGroupPlay ;
+    skos:definition "Receiver meets ball, turns, and passes; progression adds C.O.D. in front of passive defender."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "SGP5" ;
+    skos:prefLabel "SGP5 — Receive, turn, pass (C.O.D. vs passive D)"@en ;
+    skos:related cd:ChangesOfDirection .
+
+cd:SKOSCoreTerms a owl:Ontology ;
+    owl:versionIRI cd:SKOSCoreTerms .
+
+cd:ShootingZones a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallSidedGames ;
+    skos:definition "Designated areas encouraging penetration before shooting."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Shooting Zones"@en ;
+    skos:related cd:M5 .
+
+cd:SmallGroupPressing a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallGroupPlay ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Small Group Pressing"@en ;
+    skos:related cd:Pressing .
+
+cd:SpeedWithBall a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:Speed ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Speed with the Ball"@en ;
+    skos:related cd:RunningWithBall .
+
+cd:StopsStarts a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:GameMoves ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Stops & Starts"@en .
+
+cd:TakeOvers a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:FastCombinations ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Take Overs"@en .
+
+cd:WarmUp a owl:NamedIndividual,
+        skos:Concept ;
+    skos:altLabel "Ball Mastery & fun games"@en ;
+    skos:broader cd:SessionPlanner ;
+    skos:definition "Drills and games to improve ball control; should be fun and competitive."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Warm Up"@en ;
+    cd:recPercent 10 ;
+    cd:sequence 1 .
+
+cd:Finishing a owl:NamedIndividual,
+        skos:Concept ;
+    skos:definition "A shot or header on goal; includes first‑time finishing."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Finishing"@en ;
+    skos:related cd:FirstTouch,
+        cd:KillerPass .
+
+cd:M1 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:OneVOne ;
+    skos:definition "Receive, one‑touch to cone, turn, wall pass, recover; advanced gate shoot/pass."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "M1" ;
+    skos:prefLabel "M1 — C.O.D. with wall pass (gate finish variant)"@en ;
+    skos:related cd:ChangesOfDirection,
+        cd:WallPasses .
+
+cd:M6 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:OneVOne ;
+    skos:definition "Scale from 1v1/2v2 to larger SSG; score via dribble through gate or pass through gate."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "M6" ;
+    skos:prefLabel "M6 — 1v1→6v6 multi‑goal games (dribble/through‑gate)"@en ;
+    skos:related cd:KillerPass,
+        cd:SmallSidedGames .
+
+cd:OneVOneDefending a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:OneVOne ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "1 v 1 Defending"@en ;
+    skos:related cd:Coerver5Ps .
+
+cd:Overlaps a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:FastCombinations ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Overlaps"@en ;
+    skos:related cd:SGP4 .
+
+cd:RunningWithBall a owl:NamedIndividual,
+        skos:Concept ;
+    skos:altLabel "Dribbling"@en ;
+    skos:broader cd:BallMastery ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Running with the Ball"@en ;
+    skos:related cd:BallMastery,
+        cd:SpeedWithBall .
+
+cd:SGP4 a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallGroupPlay ;
+    skos:definition "Pass to wall player; 1‑touch through gate; add repeated overlaps across the grid."@en ;
+    skos:inScheme cd:scheme ;
+    skos:notation "SGP4" ;
+    skos:prefLabel "SGP4 — Wall‑pass channel with overlap"@en ;
+    skos:related cd:Overlaps,
+        cd:WallPasses .
+
+cd:ChangesOfDirection a owl:NamedIndividual,
+        skos:Concept ;
+    skos:altLabel "C.O.D."@en ;
+    skos:broader cd:GameMoves ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Changes of Direction"@en ;
+    skos:related cd:M1,
+        cd:SGP5 .
+
+cd:FastCombinations a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SmallGroupPlay ;
+    skos:inScheme cd:scheme ;
+    skos:narrower cd:Overlaps,
+        cd:TakeOvers,
+        cd:WallPasses ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Fast Combinations"@en .
+
+cd:Feints a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:GameMoves ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Feints"@en ;
+    skos:related cd:M7 .
+
+cd:KillerPass a owl:NamedIndividual,
+        skos:Concept ;
+    skos:altLabel "Passes to Score"@en,
+        "Through ball"@en ;
+    skos:definition "Defence‑beating pass creating a goal chance."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Killer Pass"@en ;
+    skos:related cd:FastBreakAttack,
+        cd:Finishing,
+        cd:M6,
+        cd:SmallSidedGames .
+
+cd:WallPasses a owl:NamedIndividual,
+        skos:Concept ;
+    skos:altLabel "One–Two"@en ;
+    skos:broader cd:FastCombinations ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Wall Passes"@en ;
+    skos:related cd:M1,
+        cd:SGP1,
+        cd:SGP4 .
+
+cd:Coerver5Ps a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:OneVOneDefending ;
+    skos:inScheme cd:scheme ;
+    skos:narrower cd:Patience,
+        cd:Persistence,
+        cd:Position,
+        cd:Pounce,
+        cd:Pressure ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Coerver 5 Ps (Defending)"@en ;
+    skos:related cd:OneVOneDefending .
+
+cd:FirstTouch a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:BallMastery ;
+    skos:definition "Initial contact to control and create options to pass, shoot or run."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "First Touch"@en ;
+    skos:related cd:BallMastery,
+        cd:Finishing,
+        cd:SGP3 .
+
+cd:GameMoves a owl:NamedIndividual,
+        skos:Concept ;
+    skos:altLabel "1 v 1 Moves"@en ;
+    skos:inScheme cd:scheme ;
+    skos:narrower cd:ChangesOfDirection,
+        cd:Feints,
+        cd:MirrorMoves,
+        cd:StopsStarts ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Game Moves (1v1 Moves)"@en ;
+    skos:related cd:BallMastery,
+        cd:OneVOneAttacking .
+
+cd:HomeAssignment a owl:NamedIndividual,
+        skos:Concept ;
+    skos:altLabel "Home Study"@en ;
+    skos:broader cd:SessionPlanner ;
+    skos:definition "Coerver skills for individual practice outside team sessions, incl. app-based tasks."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Home Assignment"@en ;
+    cd:recPercent 5 ;
+    cd:sequence 6 .
+
+cd:Speed a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SessionPlanner ;
+    skos:definition "Drills & games to improve speed with and without the ball."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Speed"@en ;
+    cd:recPercent 15 ;
+    cd:sequence 2 .
+
+cd:OneVOne a owl:NamedIndividual,
+        skos:Concept ;
+    skos:altLabel "1v1"@en ;
+    skos:broader cd:SessionPlanner ;
+    skos:definition "Drills and games to improve the how/when/where of 1v1 (2v2 included)."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "1 v 1 Attack & Defence"@en ;
+    cd:recPercent 15 ;
+    cd:sequence 3 .
+
+cd:SessionPlanner a owl:NamedIndividual,
+        skos:Concept ;
+    skos:inScheme cd:scheme ;
+    skos:note "Documentation pending."@en ;
+    skos:prefLabel "Coerver Session (alt)"@en ;
+    skos:related cd:CoerverSession ;
+    skos:topConceptOf cd:scheme .
+
+cd:SmallGroupPlay a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:SessionPlanner ;
+    skos:definition "Drills & games focusing on Receiving, Passing, Finishing, combinations and pressing."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Small Group Play"@en ;
+    cd:recPercent 25 ;
+    cd:sequence 4 .
+
+cd:SmallSidedGames a owl:NamedIndividual,
+        skos:Concept ;
+    skos:altLabel "SSG"@en ;
+    skos:broader cd:SessionPlanner ;
+    skos:definition "Free and conditioned games (typically 3v3 to 7v7)."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Small Sided Games"@en ;
+    skos:related cd:KillerPass,
+        cd:M6 ;
+    cd:recPercent 30 ;
+    cd:sequence 5 .
+
+cd:BallMastery a owl:NamedIndividual,
+        skos:Concept ;
+    skos:broader cd:WarmUp ;
+    skos:definition "Repeated ball manipulation using all foot surfaces; foundation of the curriculum."@en ;
+    skos:inScheme cd:scheme ;
+    skos:prefLabel "Ball Mastery"@en ;
+    skos:related cd:FirstTouch,
+        cd:GameMoves,
+        cd:RunningWithBall .
+
+skos:Concept a owl:Class .
+
+cd:scheme a owl:NamedIndividual,
+        skos:ConceptScheme ;
+    dcterms:source "EG FINAL ONLINE DIPLOMA HANDBOOK 21.01.21"@en ;
+    skos:prefLabel "Coerver® Youth Diploma 1"@en .
+
